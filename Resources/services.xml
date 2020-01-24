@@ -5,12 +5,11 @@
 
     <services>
 
-
-
-
-
-
-
+        <service class="MistaTestPlugin\Subscriber\TemplateRegistration" id="mista_test_plugin.subscriber.template_registration">
+            <argument>%mista_test_plugin.plugin_dir%</argument>
+            <argument type="service" id="template"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
 
     </services>
 </container>
