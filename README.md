@@ -1,11 +1,9 @@
-#Shopware Test Plugin
-
-##setting my_attribute for a specific main article over the shopware api:
-
-#####ENDPOINT:
+# Shopware Test Plugin
+## setting my_attribute for a specific main article over the shopware api:
+##### ENDPOINT:
 `PUT http://example.com/api/articles/{articleId}`
 
-#####PAYLOAD:
+##### PAYLOAD:
 ```json
 {
 	"mainDetail": {
@@ -15,7 +13,5 @@
 	}
 }
 ```
-
-##preview of installed plugin:
-
+## preview of installed plugin:
 ![Preview](preview.jpg)
