@@ -1,3 +1,4 @@
+#Shopware Test Plugin
 
 ##setting my_attribute for a specific main article over the shopware api:
 
